@@ -7,35 +7,36 @@ var myName = "Tony Truong";
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
 //
-var favNum = "9";
+var faveNum = 9;
 
 
 // #3 create a variable called 'lovesCode' and set it to true
 
 //
-var lovesCode = "true";
+var lovesCode = true;
 
 
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
 //
-var me = "My name is " + "myName " + "and my favorite number is " + "favNum";
+var me = "My name is " + myName + " and my favorite number is " + faveNum;
 
 
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
 //
-var trueFaveNum
-trueFaveNum == favNum
+var trueFaveNum = faveNum == 9; 
 
 
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
 //
-var myName = "Tony Truong";
-var notHakeem = "Hakeem Olajuwon"
+var notHakeem;
 
-console.log(myName == notHakeem);
+  if (myName != "Hakeem Olajuwon"){
+    return notHakeem;
+  };
+
 
 
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
@@ -70,7 +71,7 @@ var responseCreator = function(param){
 //
 
 function sum(num1){
-  console.log(num1+num1);
+  return (num1+num1);
 };
 
 // #10 Create a function called 'greeter' that takes in two parameters, name and number. Have 'greeter' return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values..
